@@ -1,14 +1,13 @@
 
 import { Button, Space } from 'antd';
+import './stylesheets/theme.css'
+import './stylesheets/alignment.css'
+import './stylesheets/textelements.css'
 function App() {
   return (
     <div className="App">
-      <h1>
-        online quiz application
-      </h1>
-      <Button type='primary'>
-        Primary button
-      </Button>
+      <div className="h-screen bg-primary">
+    </div>
     </div>
   );
 }
