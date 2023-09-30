@@ -22,3 +22,17 @@
     font-size: 0.75rem;
     line-height: 0.875rem;
 }
+h1{
+    margin-bottom: 0px !important;
+    padding-bottom: 0 !important;
+}
+.underline{
+    text-decoration: underline;
+}
+a{
+    color: var(--primary) !important;
+}
+a:hover{
+    color: var(--primary) !important;
+    text-decoration: underline !important;
+}
