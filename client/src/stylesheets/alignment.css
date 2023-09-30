@@ -13,6 +13,9 @@
 .w-screen{
     width: 100vw;
 }
+.w-100{
+    width: 100%;
+}
 .w-75{
     width: 75%;
 }
@@ -21,6 +24,9 @@
 }
 .w-25{
     width: 25%;
+}
+.w-400{
+    width: 400px;
 }
 .flex{
     display: flex;
@@ -63,4 +69,25 @@
 }
 .gap-5{
     gap: 50px;
+}
+.p-5{
+    padding: 50px;
+}
+.p-4{
+    padding: 40px;
+}
+.p-3{
+    padding: 30px;
+}
+.p-2{
+    padding: 20px;
+}
+.p-1{
+    padding: 10px;
+}
+.mt-1{
+    margin-top: 10px;
+}
+.mt-2{
+    margin-top: 20px;
 }
