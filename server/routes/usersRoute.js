@@ -1,4 +1,3 @@
-import { message } from 'antd';
 const router = require('express').Router();
 const User = require('../models/userModel')
 const bcrypt = require('bcryptjs')
