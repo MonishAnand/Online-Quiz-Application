@@ -8,6 +8,8 @@ import './stylesheets/form-elements.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Login from './pages/common/login';
 import Register from './pages/common/register';
+import ProtectedRoute from "./components/ProtectedRoute";
+import Home from "./pages/common/Home";
 
 function App() {
   return (

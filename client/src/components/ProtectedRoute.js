@@ -8,7 +8,7 @@ import { SetUser } from "../redux/usersSlice.js";
 function ProtectedRoute({ children }) {
     const { user } = useSelector((state) => state.users);
     const dispatch = useDispatch();
-    const navigate = useNavigate();
+    
 
 
     const getUserData = async () => {
