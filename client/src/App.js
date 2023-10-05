@@ -40,6 +40,23 @@ function App() {
               </ProtectedRoute>
             }
           />
+           <Route
+            path="/admin/exams/add"
+            element={
+              <ProtectedRoute>
+                <AddEditExam />
+              </ProtectedRoute>
+            }
+          />
+
+          <Route
+            path="/admin/exams/edit/:id"
+            element={
+              <ProtectedRoute>
+                <AddEditExam />
+              </ProtectedRoute>
+            }
+          />
 
 
 
